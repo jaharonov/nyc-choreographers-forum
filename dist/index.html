@@ -26,21 +26,21 @@
                     </a>
                 </li> -->
                 <li class="nav-item">
-                    <a class="nav-link" href="shop.html">Buy Tickets</a>
+                    <a class="nav-link" href="#tickets">Buy Tickets</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">Submit Work</a>
+                    <a class="nav-link" href="#submission">Submit Work</a>
                 </li>
             </ul>
         </div>
     </nav>
     
 <div class="jumbotron paral paralsec" style="background-image: url(./assets/skyline.png);" fluid-grow>
-<div class="row justify-content-center pt-3">
+<div class="row justify-content-center pt-3 mx-auto">
     <h1 class="text-center">NYC CHOREOGRAPHER'S FORUM 2019!</h1>   
 </div>
-<div class="row justify-content-center p-4">
-    <h3><strong class="justify-content-center">THE CENTER AT WEST PARK, Saturday, 2/16</strong></h3>
+<div class="row justify-content-center p-3 mx-auto">
+    <h3><class="text-center">THE CENTER AT WEST PARK, Saturday, 2/16</h3>
 </div>
 <!-- <div class="row justify-content-center p-5"></div> -->
 <div class="row justify-content-center p-5">
@@ -52,8 +52,22 @@
     </section>
 </div>
 </div>
+<div class="row justify-content-center mx-auto p-2">
+    <div class="col-md-3 p-1">
+        <img src="./assets/21558958_857954361034955_6627304821288887595_n.jpg" class="img-fluid" alt="Responsive image">
+    </div>
+    <div class="col-md-3 p-1">
+        <img src="./assets/21616280_863519603811764_5538142045643945430_n.jpg" class="img-fluid" alt="Responsive image">
+    </div>
+    <div class="col-md-3 p-1">
+        <img src="./assets/21728132_860790020751389_6997771669604177934_n.jpg" class="img-fluid" alt="Responsive image">
+    </div>
+    <div class="col-md-3 p-1">
+        <img src="./assets/21761671_863973710433020_6202623592910728366_n.jpg" class="img-fluid" alt="Responsive image">
+    </div>    
+</div>
 <div class="row justify-content-center">
-<div class="col-lg-4 p-5 ml-5 text-left">
+<div class="col-lg-4 p-5 mx-auto text-left">
     <strong class="text-primary">NYC CHOREOGRAPHER'S FORUM</strong><br/>
     <strong>THE CENTER AT WEST PARK</strong>
     <br/> Saturday, 2/16 7:30pm
@@ -63,10 +77,15 @@
     <br/>
     <div class="embed-responsive embed-responsive-16by9">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.831073528997!2d-73.97670284943887!3d40.78772777922226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25884636fffff%3A0x51f95e9084930413!2sThe+Center+at+West+Park!5e0!3m2!1sen!2sus!4v1545430001030" class="embed-responsive-item"></iframe>
+    <br/>
+    </div>
+    <div class="pt-3">
+    <strong class="text-primary">INFO</strong>
+    <p>For more info, email <a href="mailto:info@nycchoreographersforum.com">info@nycchoreographersforum.com</a>.</p>
     </div>
 </div>
-<div class="col-lg-6 p-5 mr-5">
-    <strong class="text-primary">TICKETS</strong>
+<div class="col-lg-6 p-5 mx-auto">
+    <strong class="text-primary text-left">TICKETS</strong>
     <br/>
      <p class="text-left">An evening showcasing NYC choreographers, all styles! Tickets are $20 in advance and $30 at the door. Presented by Caston-Clark Productions.</p>
     <br/>
@@ -75,10 +94,13 @@
         <a href="https://www.eventbrite.com/e/nyc-choreographers-forum-2019-tickets-54058550580" rel="noopener noreferrer" target="_blank">
     </noscript>
     <!-- You can customize this button any way you like -->
-    <div class="p-3">
+    <div class="p-3 pb-5" id="tickets">
     <button id="eventbrite-widget-modal-trigger-54058550580" type="button" class="btn btn-warning btn-lg btn-block">BUY TICKETS</button>
     </div>
-    <div class="p-3">
+    <strong class="text-primary">SUBMISSIONS</strong>
+    <p>If you'd like to submit your work, please submit your name, email address, title of project, and video of what you would
+        like to present.</p>
+    <div class="p-3" id="submission">
     <button type="button" class="btn btn-warning btn-lg btn-block" data-toggle="modal" data-target="#submit">SUBMIT WORK</button>
     <div class="modal fade" id="submit" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -138,15 +160,12 @@
     </script>
 </div>
 </div>
-<!-- <script type="text/javascript">var submitted = false;</script>
-<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='file:///Users/Jaffa/Desktop/DeniseCaston/nyc-choreographers-2019/bootstrap-webpack/dist/index.html';}"></iframe>
-<form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSeG5TTpAzKmsV02OQ4IaJAVHDse8zRmuRKr6tHyyjXp2HwBUg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
-<label>Name</label>
-<input name="entry.1830439049" type="text"/>
-<label for="email">Email</label>
-<input name="" type="text" id="email" />
-<input type="submit" value="Send" />
-</form> -->
-  <!-- <script src="./bundle.js"></script> -->
+<footer class="border-top p-5">
+    <div class="container">
+        <span class="text-muted">© 2019 Caston Clark Productions, all rights reserved. Site built by
+            <a class="link text-primary" href="http://www.jaharonov.com"
+                target="_blank">J Aharonov</a>.</span>
+    </div>
+</footer>
 </body>
 </html>

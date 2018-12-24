@@ -8,6 +8,14 @@ background-size: cover;
 background-position: 50% 50%;
 
 }
+.paral2 {
+min-height: 300px;
+background-attachment: fixed;
+background-size: cover;
+background-position: 50% 50%;
+
+
+}
 
 #nav-title {
     font-family: 'Permanent Marker', cursive;
@@ -20,6 +28,8 @@ $headings-color: #3f41d3;
 
 .jumbotron {
 margin-bottom: 0;
+padding-bottom: 0;
+
 }
 section {
   position: relative;
