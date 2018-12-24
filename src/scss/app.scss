@@ -1,0 +1,114 @@
+
+
+/* Header Parallax Element Style*/ 
+.paral {
+min-height: 600px;
+background-attachment: fixed;
+background-size: cover;
+background-position: 50% 50%;
+
+}
+
+#nav-title {
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+$headings-font-family: 'Permanent Marker', cursive;
+
+$headings-color: #3f41d3;
+
+.jumbotron {
+margin-bottom: 0;
+}
+section {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+section::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 80%;
+  
+}
+
+#section06 a {
+  padding-top: 70px;
+}
+#section06 a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 5px solid #e83e8c;
+  border-bottom: 5px solid #e83e8c;
+  -webkit-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+  -webkit-animation: sdb06 1.5s infinite;
+  animation: sdb06 1.5s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb06 {
+  0% {
+    -webkit-transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+
+  50% {
+    -webkit-transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+
+  75% {
+    -webkit-transform: rotateY(720deg) rotateZ(-45deg) translate(-40px, 40px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: rotateY(720deg) rotateZ(-45deg) translate(-60px, 60px);
+    opacity: 0;
+  }
+}
+@keyframes sdb06 {
+  0% {
+    transform: rotateY(0) rotateZ(-45deg) translate(0, 0);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+
+  50% {
+    transform: rotateY(720deg) rotateZ(-45deg) translate(-20px, 20px);
+    opacity: 0;
+  }
+
+  75% {
+    transform: rotateY(720deg) rotateZ(-45deg) translate(-40px, 40px);
+    opacity: 0;
+  }
+  100% {
+    transform: rotateY(720deg) rotateZ(-45deg) translate(-60px, 60px);
+    opacity: 0;
+  }
+}
+
+$body-bg: white;
+$jumbotron-bg: white;
+$primary: #461c5c;
+$warning: #e83e8c;
+$link-hover-decoration: none;
+$font-family-sans-serif:      'Sarabun', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !default;
+$font-family-base:            $font-family-sans-serif !default;
+
+
+@import "~bootstrap/scss/bootstrap";
