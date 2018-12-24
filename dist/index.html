@@ -53,7 +53,7 @@
 </div>
 </div>
 <div class="row justify-content-center">
-<div class="col-lg-4 p-5 ml-5">
+<div class="col-lg-4 p-5 ml-5 text-left">
     <strong class="text-primary">NYC CHOREOGRAPHER'S FORUM</strong><br/>
     <strong>THE CENTER AT WEST PARK</strong>
     <br/> Saturday, 2/16 7:30pm
@@ -61,20 +61,63 @@
     <br/> New York, NY 10024
     <br/>
     <br/>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.831073528997!2d-73.97670284943887!3d40.78772777922226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25884636fffff%3A0x51f95e9084930413!2sThe+Center+at+West+Park!5e0!3m2!1sen!2sus!4v1545430001030"
-        height="250px" width="auto" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <div class="embed-responsive embed-responsive-16by9">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3020.831073528997!2d-73.97670284943887!3d40.78772777922226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25884636fffff%3A0x51f95e9084930413!2sThe+Center+at+West+Park!5e0!3m2!1sen!2sus!4v1545430001030" class="embed-responsive-item"></iframe>
+    </div>
 </div>
 <div class="col-lg-6 p-5 mr-5">
     <strong class="text-primary">TICKETS</strong>
     <br/>
-     <p class="text-justify">An evening showcasing NYC choreographers, all styles! Tickets are $20 in advance and $30 at the door. Presented by Caston-Clark Productions.</p>
+     <p class="text-left">An evening showcasing NYC choreographers, all styles! Tickets are $20 in advance and $30 at the door. Presented by Caston-Clark Productions.</p>
     <br/>
     <!-- Noscript content for added SEO -->
     <noscript>
         <a href="https://www.eventbrite.com/e/nyc-choreographers-forum-2019-tickets-54058550580" rel="noopener noreferrer" target="_blank">
     </noscript>
     <!-- You can customize this button any way you like -->
-    <button id="eventbrite-widget-modal-trigger-54058550580" type="button" class="btn btn-warning btn-lg">Buy Tickets</button>
+    <div class="p-3">
+    <button id="eventbrite-widget-modal-trigger-54058550580" type="button" class="btn btn-warning btn-lg btn-block">BUY TICKETS</button>
+    </div>
+    <div class="p-3">
+    <button type="button" class="btn btn-warning btn-lg btn-block" data-toggle="modal" data-target="#submit">SUBMIT WORK</button>
+    <div class="modal fade" id="submit" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <strong class="modal-title text-primary" id="exampleModalLabel">Submit Work</strong>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdryIlJGSO7A2zUGp8owV4941ctmQv_D7lQoUL5zWVBr60r8w/viewform?embedded=true" class="embed-responsive-item">Loading...</iframe>
+                    </div>
+                    <!-- <script type="text/javascript">var submitted = false;</script>
+                    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='file:///Users/Jaffa/Desktop/DeniseCaston/nyc-choreographers-2019/bootstrap-webpack/dist/index.html';}"></iframe>
+                    <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSdryIlJGSO7A2zUGp8owV4941ctmQv_D7lQoUL5zWVBr60r8w/formResponse"
+                        method="post" target="hidden_iframe" onsubmit="submitted=true;">
+                        <label>First Name</label>
+                        <input name="entry.1023892779" type="text" />
+                        <label>Last Name</label>
+                        <input name="entry.1676783515" type="text" />
+                        <label for="email">Email</label>
+                        <input name="entry.1019025499" type="text" id="email" />
+                        <label for="email">Project Title</label>
+                        <input name="entry.646879851" type="text" id="email" />
+                        <label for="email">Video Link</label>
+                        <input name="entry.1187244724" type="text" id="email" />
+                        <input type="submit" value="Submit" class="btn btn-primary" />
+                    </form>  -->
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    </div>
     <noscript>
         </a>Buy Tickets on Eventbrite</noscript>
     
@@ -95,7 +138,7 @@
     </script>
 </div>
 </div>
-<script type="text/javascript">var submitted = false;</script>
+<!-- <script type="text/javascript">var submitted = false;</script>
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='file:///Users/Jaffa/Desktop/DeniseCaston/nyc-choreographers-2019/bootstrap-webpack/dist/index.html';}"></iframe>
 <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSeG5TTpAzKmsV02OQ4IaJAVHDse8zRmuRKr6tHyyjXp2HwBUg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
 <label>Name</label>
@@ -103,7 +146,7 @@
 <label for="email">Email</label>
 <input name="" type="text" id="email" />
 <input type="submit" value="Send" />
-</form>
+</form> -->
   <!-- <script src="./bundle.js"></script> -->
 </body>
 </html>
